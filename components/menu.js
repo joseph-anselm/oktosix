@@ -9,7 +9,7 @@ export default function Menubar() {
     <div>
       <nav className="relative z-10 rounded border-gray-200  px-2 py-2.5 dark:bg-gray-800 sm:px-4">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
-          <a href="/" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <img
               src="img/oktlogo.png"
               className="mr-3 h-6 sm:h-9"
@@ -18,7 +18,7 @@ export default function Menubar() {
             <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
               Oktosix
             </span>
-          </a>
+          </Link>
           <div className="flex items-center md:order-2">
             <button
               type="button"
@@ -70,7 +70,7 @@ export default function Menubar() {
                 <path
                   fillRule="evenodd"
                   d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
               <svg
@@ -82,7 +82,7 @@ export default function Menubar() {
                 <path
                   fillRule="evenodd"
                   d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </button>
