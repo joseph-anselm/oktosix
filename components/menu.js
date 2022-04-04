@@ -15,9 +15,9 @@ export default function Menubar() {
               <Image
                 src="/img/oktlogo.png"
                 className="mr-3 h-6 sm:h-9"
-                alt="Flowbite Logo"
-                width={100}
-                height={70}
+                alt="Oktosix Logo"
+                width={80}
+                height={50}
               />
               <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
                 Oktosix
