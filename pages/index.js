@@ -14,7 +14,7 @@ export default function index() {
 
         <div className=" relative top-60  text-white">
           <div className="ml-5 ">
-            <h1 className=" mb-5 text-7xl">Oktosix Motions Pictures</h1>
+            <h1 className=" mb-5 text-6xl">Oktosix Motions Pictures</h1>
             <p>Unlimited Entertainment, Movies & More!</p>
             <button className=" mt-5 flex rounded-full bg-yellow-600 py-2 px-4 font-bold text-white hover:bg-red-700">
               <svg
