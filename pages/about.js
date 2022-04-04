@@ -37,7 +37,9 @@ export default function About() {
 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
-            <p className="text-">Learn about Next.js in an interactive course with quizzes!</p>
+            <p className="text-">
+              Learn about Next.js in an interactive course with quizzes!
+            </p>
           </a>
 
           <a
@@ -47,7 +49,6 @@ export default function About() {
             <h2>Examples &rarr;</h2>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
-          
 
           <a
             href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
