@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { SocialIcon } from "react-social-icons";
@@ -10,14 +11,18 @@ export default function Menubar() {
       <nav className="relative z-10 rounded border-gray-200  px-2 py-2.5 dark:bg-gray-800 sm:px-4">
         <div className="container mx-auto flex flex-wrap items-center justify-between">
           <Link href="/" className="flex items-center">
-            <img
-              src="img/oktlogo.png"
-              className="mr-3 h-6 sm:h-9"
-              alt="Flowbite Logo"
-            />
-            <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
-              Oktosix
-            </span>
+            <div className="flex items-center">
+              <Image
+                src="/img/oktlogo.png"
+                className="mr-3 h-6 sm:h-9"
+                alt="Flowbite Logo"
+                width={100}
+                height={70}
+              />
+              <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
+                Oktosix
+              </span>
+            </div>
           </Link>
           <div className="flex items-center md:order-2">
             <button
