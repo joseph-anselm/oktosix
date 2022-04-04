@@ -19,9 +19,6 @@ export default function Menubar() {
                 width={80}
                 height={50}
               />
-              <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
-                Oktosix
-              </span>
             </div>
           </Link>
           <div className="flex items-center md:order-2">
