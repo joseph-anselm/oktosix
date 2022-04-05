@@ -18,7 +18,7 @@ export default function index() {
             <p>Unlimited Entertainment, Movies & More!</p>
             <button className=" mt-5 flex rounded-full bg-yellow-600 py-2 px-4 font-bold text-white hover:bg-red-700">
               <svg
-                class="h-6 w-6"
+                className="h-6 w-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
