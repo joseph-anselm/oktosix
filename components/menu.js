@@ -14,7 +14,7 @@ export default function Menubar() {
             <div className="flex items-center">
               <Image
                 src="/img/oktlogo.png"
-                className="mr-3 h-6 sm:h-9"
+                className="mr-3 h-20 w-24 object-contain"
                 alt="Oktosix Logo"
                 width={80}
                 height={50}
@@ -46,7 +46,7 @@ export default function Menubar() {
               />
 
               <SocialIcon
-                url="https://tiktok.com/crisvytv"
+                url="https://www.tiktok.com/@crisvytv"
                 style={{ height: 20, width: 20, marginRight: 10 }}
               />
               <SocialIcon
