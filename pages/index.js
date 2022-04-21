@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
+import Link from "next/link";
 
 export default function index() {
   return (
@@ -29,7 +30,9 @@ export default function index() {
                   clipRule="evenodd"
                 ></path>
               </svg>{" "}
-              Watch Now!
+              <Link href="https://bit.ly/3JUbmiQ">
+                <a target="_blank">Watch Now!</a>
+              </Link>
             </button>
           </div>
         </div>
