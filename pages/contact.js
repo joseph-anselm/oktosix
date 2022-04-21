@@ -3,7 +3,7 @@ import React from "react";
 export default function contact() {
   return (
     <div>
-      <div class="relative w-full">
+      {/* <div class="relative w-full">
         <header>
           <nav class="fixed z-10 w-full border-b bg-white md:absolute md:bg-transparent">
             <div class="container m-auto px-2 md:px-12 lg:px-7">
@@ -138,7 +138,7 @@ export default function contact() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
